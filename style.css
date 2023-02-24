@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+
+#demo{
+    margin: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+}
+
+h1{
+    margin: 10px;
+    font-family: Verdana, Geneva;
+    font-weight: bold;
+    color: rgb(0, 0, 116);
+}
+
+h3{
+    margin: 10px;
+    font-family: Verdana, Geneva;
+    font-weight: bold;
+    color: gray;
+}
+
+.text{
+    margin: 10px;
+    font-family: Verdana, Geneva;
+    font-weight: bold;
+    color: gray;
+    width: 500px;
+    justify-content: center;
+}
